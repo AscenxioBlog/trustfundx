@@ -1,4 +1,24 @@
 @import "tailwindcss";
 @theme{
-    --color-mybg:#123456;
+    --color-mybg:#000006;
+    --color-primaryColor:#CD1818;
+    --color-secondaryColor:'white';
+    --text-heading:22px;
+    --text-mediumScreen:24px;
+    --text-screenSize:18px;
+    --text-largeScreen:35px;
+}
+.headbg{
+    background-image: url(UI/HomeComponent/HomePictures/34t.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-color: #0000063f;
+    background-blend-mode: darken;
+
+
+}
+.largebg{
+    background-image: url(UI/HomeComponent/HomePictures/lady.png);
+    background-repeat: none;
+    background-size: 100% 100%;
 }
