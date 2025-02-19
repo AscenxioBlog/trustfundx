@@ -2,6 +2,7 @@ import React from 'react'
 import HomeComponent1 from './HomeComponent1'
 import HomeComponent2 from './HomeComponent2'
 import HomeComponent3 from './HomeComponent3'
+import HomeComponent4 from './HomeComponent4'
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <HomeComponent1/>
       <HomeComponent2/>
       <HomeComponent3/>
+      <HomeComponent4/>
       
     </div>
   )
