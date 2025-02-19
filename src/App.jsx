@@ -6,12 +6,14 @@ import AboutPage from './UI/AboutComponent/AboutPage'
 import ContactPage from './UI/ContactComponent/ContactPage'
 import AdminPage from './UI/AdminDashboard/AdminPage'
 import UserDashboard from './UI/UserDashboard/UserDashboard'
+import Header from './UI/HeaderFolder/Header'
 
 function App() {
   return (
     <div className=''>
       <ContextApp>
         <BrowserRouter>
+       <Header /> 
           <Routes>
             <Route path='/' element={<HomePage/>}/>
             <Route path='/about' element={<AboutPage/>}/>

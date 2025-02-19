@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+
 @theme{
     --color-mybg:#000006;
     --color-primaryColor:#CD1818;
@@ -7,6 +9,13 @@
     --text-mediumScreen:24px;
     --text-screenSize:18px;
     --text-largeScreen:35px;
+    /* --background-image-line:linear-gradient(to right, #CD1818 ,#000006) */
+}
+.bobo{
+    background-image: linear-gradient(to right, #CD1818 ,#000006);
+}
+.poly{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .headbg{
     background-image: url(UI/HomeComponent/HomePictures/34t.jpg);
@@ -22,6 +31,7 @@
     background-repeat: none;
     background-size: 100% 100%;
 }
+<<<<<<< HEAD
 
 
 
@@ -47,3 +57,5 @@
 
   
   /* DASHBOARD CSS END HERE */
+=======
+>>>>>>> 201c1b39d0ad8dcf81a7b992444cd4d9ae0c95df
