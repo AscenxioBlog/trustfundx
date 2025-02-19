@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeComponent3() {
   return (
-    <div className='bobo '>
+    <div className='min-h-[10px] bobo overflow-hidden'>
         {/* For small Screen Size Phones  */}
         <div className='h-[280px] bg-mybg w-full px-1 text-center flex flex-col gap-3.5 items-center justify-center md:hidden'>
            <section className=''>
@@ -37,7 +37,7 @@ function HomeComponent3() {
         </div>
 
         {/* For Bigger Screens Like Laptops  */}
-        <div className='h-[140px]  hidden w-full lg:grid grid-cols-4 mt-5 -skew-x-6'>
+        <div className='h-[140px] -mt-1.5  hidden md:hidden w-full lg:grid grid-cols-4  -skew-x-6'>
             <div className=' col-span-1 bg-primaryColor -skew-x-6'>
                 
             </div>

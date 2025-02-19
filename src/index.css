@@ -18,6 +18,9 @@
 .bobo{
     background-image: linear-gradient(to right, #CD1818 ,#000006);
 }
+.poly{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
 .headbg{
     background-image: url(UI/HomeComponent/HomePictures/34t.jpg);
     background-repeat: none;
