@@ -22,3 +22,28 @@
     background-repeat: none;
     background-size: 100% 100%;
 }
+
+
+
+
+
+
+
+/* DASHBOARD CSS BELLOW */
+.aa:hover .bb{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: white;
+    color: black;
+  
+  }
+  .aa:hover .cc{
+    background-color: white;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    color: black;
+  
+  }
+
+  
+  /* DASHBOARD CSS END HERE */
