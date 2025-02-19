@@ -8,7 +8,8 @@ function AboutSecondComponent() {
 
              <div className='h-[110vh] flex items-center bg-[#FFFFFF] lg:px-34'>
 
-                     <div className='h-[60vh] gap-7 grid grid-cols-2'>
+                     <div className='h-[60vh] gap-7 grid grid-cols-2'>   
+                        
                             <div className='bg-[green]'>
                                  {/* <img src={aboutImage}/> */}
                             </div>
