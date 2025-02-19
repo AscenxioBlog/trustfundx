@@ -9,7 +9,6 @@
     --text-mediumScreen:24px;
     --text-screenSize:18px;
     --text-largeScreen:35px;
-    /* --background-image-line:linear-gradient(to right, #CD1818 ,#000006) */
 }
 .bobo{
     background-image: linear-gradient(to right, #CD1818 ,#000006);
