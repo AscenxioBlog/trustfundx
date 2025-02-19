@@ -1,4 +1,10 @@
 @import "tailwindcss";
+<<<<<<< HEAD
+
+@theme{
+    --color-bg-color: red;
+}
+=======
 @theme{
     --color-mybg:#000006;
     --color-primaryColor:#CD1818;
@@ -29,3 +35,4 @@
     background-repeat: none;
     background-size: 100% 100%;
 }
+>>>>>>> efc07c60f56893c0cc7d3f47e87d55706a2d8d0f
