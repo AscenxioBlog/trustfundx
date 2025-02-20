@@ -6,19 +6,19 @@ function AboutSecondComponent() {
   return (
     <div>
 
-             <div className='h-[110vh] flex items-center bg-[#FFFFFF] lg:px-34'>
+             <div className='h-[90vh] flex items-center bg-[#000000]'>
 
-                     <div className='h-[60vh] gap-7 grid grid-cols-2'>   
-                        
-                            <div className='bg-[green]'>
+                     <div className='h-[60vh] gap-7 grid grid-cols-1 lg:grid-cols-2'>   
+
+                            <div className='Dashboard-photo'>
                                  {/* <img src={aboutImage}/> */}
                             </div>
 
-                            <div className='text-[#6D06F0] flex flex-col justify-center font-medium'>
+                            <div className='text-[#FFFF] flex flex-col justify-center font-medium'>
                                 <h1 className='text-5xl leading-14'>Become part of our <br />
                                  community</h1>
 
-                               <div className='mt-10 text-black'>
+                               <div className='mt-10 text-WHITE'>
                                     <p>
                                             Algocapital offers a global opportunity for individuals 
                                             to earn a percentage of their investment. Our team 
@@ -34,7 +34,7 @@ function AboutSecondComponent() {
                                     height="40px"
                                     width="150px"
                                     label="Learn More"
-                                    backgroundColor="#6D06F0"
+                                    backgroundColor="#FF0000"
                                     borderRadius="5px"
                                     marginTop="30px"
                                 />

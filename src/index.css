@@ -31,3 +31,10 @@
     background-repeat: none;
     background-size: 100% 100%;
 }
+
+
+.Dashboard-photo{
+    background-image: url(assets/Dashboard.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
