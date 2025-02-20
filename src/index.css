@@ -6,9 +6,9 @@
     --color-primaryColor:#CD1818;
     --color-secondaryColor:'white';
     --text-heading:22px;
-    --text-mediumScreen:24px;
-    --text-screenSize:18px;
-    --text-largeScreen:35px;
+    --text-mediumScreen:23px;
+    --text-screenSize:18px; /* paragraph text size for phone*/
+    --text-largeScreen:26px;  /*  paragraph text size for laptop still fixing for now use medium screen*/
 }
 .bobo{
     background-image: linear-gradient(to right, #CD1818 ,#000006);
