@@ -1,14 +1,17 @@
 import React from 'react'
 import AboutFirstComponent from './AboutFirstComponent'
 import AboutSecondComponent from './AboutSecondComponent'
+import FAQsComponents from './FAQsComponents'
 
 function AboutPage() {
   return (
-    <div>
+    <div className=' bg-[#000000] lg:px-34'>
 
         <AboutFirstComponent />
 
-        <AboutSecondComponent />     
+        <AboutSecondComponent />   
+
+        <FAQsComponents />
     </div>
   )
 }
