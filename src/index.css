@@ -39,15 +39,11 @@
 
 .Dashboard-photo{
     background-image: url(assets/Dashboard.png);
-    background-repeat: no-repeat;
+    background-repeat: none;
     background-size: 100% 100%;
 }
 
 
-
-
-
-/* DASHBOARD CSS BELLOW */
 .aa:hover .bb{
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -62,6 +58,10 @@
     color: black;
   
   }
+<<<<<<< HEAD
+  
+=======
 
   
   /* DASHBOARD CSS END HERE */
+>>>>>>> 20b1431fbafd9077cee2d9bfab9afa535969cf1f

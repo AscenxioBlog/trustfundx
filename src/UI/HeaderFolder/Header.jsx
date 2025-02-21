@@ -6,7 +6,7 @@ import CustomBtn from '../../ButtonFolder/CustomBtn'
 function Header() {
   return (
     <div>
-            <div className='h-[45px] bg-[#000000]  lg:grid grid-cols-3 hidden '>
+            <div className='h-[65px] bg-[#000000]  lg:grid grid-cols-3 hidden '>
                    <div className='bg-[] '>
                         {/* <img src={Logo}/> */}
                    </div>
