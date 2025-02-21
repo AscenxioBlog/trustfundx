@@ -9,7 +9,7 @@ function HomePage() {
   return (
 
 
-    <div className=' min-h-[100vh] w-full bg-mybg'>
+    <div className=' h-[100vh] w-full bg-mybg'>
       <HomeComponent1/>
       <HomeComponent2/>
       <HomeComponent3/>
