@@ -14,10 +14,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
-<<<<<<< HEAD
-
-=======
->>>>>>> 20b1431fbafd9077cee2d9bfab9afa535969cf1f
     "react-router-dom": "^7.1.5",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
