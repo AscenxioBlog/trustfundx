@@ -10,7 +10,7 @@ function AboutSecondComponent() {
 
                      <div className='h-[60vh] gap-7 grid grid-cols-1 lg:grid-cols-2'>   
 
-                            <div className='Dashboard-photo'>
+                            <div className='About-Dashboard-photo'>
                                  {/* <img src={aboutImage}/> */}
                             </div>
 

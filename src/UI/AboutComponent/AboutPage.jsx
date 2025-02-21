@@ -2,6 +2,9 @@ import React from 'react'
 import AboutFirstComponent from './AboutFirstComponent'
 import AboutSecondComponent from './AboutSecondComponent'
 import FAQsComponents from './FAQsComponents'
+import NewsLettercomponent from './NewsLettercomponent'
+import YoutubeVideo from './YoutubeVideo'
+
 
 function AboutPage() {
   return (
@@ -12,6 +15,10 @@ function AboutPage() {
         <AboutSecondComponent />   
 
         <FAQsComponents />
+
+       <YoutubeVideo />
+
+       <NewsLettercomponent />
     </div>
   )
 }

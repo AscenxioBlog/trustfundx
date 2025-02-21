@@ -31,14 +31,13 @@
     background-size: 100% 100%;
 }
 
-
-<<<<<<< HEAD
-.Dashboard-photo{
+.About-Dashboard-photo{
     background-image: url(assets/Dashboard.png);
-    background-repeat: no-repeat;
+    background-repeat: none;
     background-size: 100% 100%;
 }
-=======
+
+
 
 
 
@@ -62,4 +61,3 @@
 
   
   /* DASHBOARD CSS END HERE */
->>>>>>> 6548dca66a39bfcfcd7d4546c1a1bd1d6c5df3cd
