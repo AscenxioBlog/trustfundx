@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
-
+*{
+    /* overflow: hidden; */
+    padding: 0;
+}
 @theme{
     --color-mybg:#000006;
     --color-primaryColor:#CD1818;
