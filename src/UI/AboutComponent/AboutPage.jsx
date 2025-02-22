@@ -4,11 +4,12 @@ import AboutSecondComponent from './AboutSecondComponent'
 import FAQsComponents from './FAQsComponents'
 import NewsLettercomponent from './NewsLettercomponent'
 import YoutubeVideo from './YoutubeVideo'
+import AboutThirdComponent from './AboutThirdComponent'
 
 
 function AboutPage() {
   return (
-    <div className=' bg-[#000000] lg:px-34'>
+    <div className=' bg-[#000000] lg:px-32 min-h-screen'>
 
         <AboutFirstComponent />
 
@@ -17,6 +18,8 @@ function AboutPage() {
         <FAQsComponents />
 
        <YoutubeVideo />
+
+       <AboutThirdComponent />
 
        <NewsLettercomponent />
     </div>

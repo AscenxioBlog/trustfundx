@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
-*{
-    /* overflow: hidden; */
-    padding: 0;
-}
+
 @theme{
     --color-mybg:#000006;
     --color-primaryColor:#CD1818;
@@ -13,6 +10,11 @@
     --text-screenSize:18px; /* paragraph text size for phone*/
     --text-largeScreen:26px;  /*  paragraph text size for laptop still fixing for now use medium screen*/
 }
+
+.showdow-shawdow{
+    box-shadow: 0 0 50px black;
+}
+
 .bobo{
     background-image: linear-gradient(to right, #CD1818 ,#000006);
 }
@@ -35,13 +37,11 @@
 }
 
 
-.Dashboard-photo{
+.About-Dashboard-photo{
     background-image: url(assets/Dashboard.png);
     background-repeat: none;
     background-size: 100% 100%;
 }
-
-
 
 
 

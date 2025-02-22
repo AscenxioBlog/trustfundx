@@ -1,30 +1,28 @@
-import React from 'react'
+import React from 'react';
 import { BsFillSendFill } from "react-icons/bs";
 
-function NewsLettercomponent() {
+function NewsLetterComponent() {
   return (
-    <div>
-
-           <div className='min-h-64 text-white space-y-3 flex items-center justify-center flex-col'>
-                  <h1 className='font-medium text-4xl text-center'>Our newsletter</h1>
-                  <p className='font-medium text-center'>Be the first to know about our latest update, subscribe to our <br />
-                   newsletter!</p>
-
-                   <div className='relative mt-10'>
-                          <span className="absolute inset-y-0 left-[74%] h-[60px] rounded bg-[#FF0000] w-[155px] font-medium flex items-center pointer-events-none">
-                               <button className='flex p-3'>Subcribed </button><BsFillSendFill/>        
-                          </span>
-
-                          <input
-                            type="text" 
-                            placeholder='Enter Email Here'
-                            className='font-medium border border-[gray] p-4 text-[16px] rounded-md h-[60px] w-[595px] focus:outline-none focus:border-tertiary focus:ring-1 focus:ring-tertiary'
-                          /> 
-                    </div>
-           </div>
-
+    <div className='flex items-center justify-center min-h-40 px-4 py-25 '>
+      <div className='text-white text-center max-w-2xl w-full'>
+        <h1 className='font-medium text-3xl md:text-4xl'>Our Newsletter</h1>
+        <p className='font-medium mt-3'>
+          Be the first to know about our latest updates, subscribe to our newsletter!
+        </p>
+        
+        <div className='relative mt-6 flex flex-col md:flex-row items-center justify-center w-full'>
+          <input
+            type='email'
+            placeholder='Enter Email Here'
+            className='font-medium border border-gray-300 p-4 text-[16px] rounded-md h-[50px] w-full md:w-[400px] focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500'
+          />
+          <button className='mt-3 md:mt-0 md:ml-3 bg-red-600 text-white font-medium flex items-center justify-center gap-2 p-4 rounded-md h-[50px] w-full md:w-[155px]'>
+            Subscribe <BsFillSendFill />
+          </button>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default NewsLettercomponent
+export default NewsLetterComponent;
