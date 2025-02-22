@@ -82,8 +82,8 @@ function HomeComponent5() {
     <div>
         {/* for small screen  */}
 
-        <div className='min-h-[200px] w-full flex flex-col  justify-center md:hidden  mt-2 bg-blue-400'>
-            <form action="" className='flex  flex-col ' onSubmit={(e)=>e.preventDefault()}>
+        <div className='min-h-[200px] w-full flex flex-col  justify-center md:hidden  mt-2 bg-blue-400 p-4'>
+            <form action="" className='flex  flex-col gap-2 ' onSubmit={(e)=>e.preventDefault()}>
                 <label htmlFor=" amount" className='text-heading'>Input an amount</label>
                 <input type="number" id='amount' className='border-2 border-white h-[40px] mt-2 '
                  placeholder='Enter amount' 
@@ -107,7 +107,7 @@ function HomeComponent5() {
                     label = 'calculate estimated earning'
                     height ='40px'
                     // width = '200px'
-                    className = 'bg-primaryColor w-full mt-3'
+                    className = 'bg-primaryColor w-full  rounded-b-md'
                     onClick= {()=>handleEstimate(plans,amount)}
                 
                 />

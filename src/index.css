@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 *{
-    /* overflow: hidden; */
-    padding: 0;
+    /* padding: 0; */
+    margin: 0;
 }
 @theme{
     --color-mybg:#000006;
@@ -32,6 +32,13 @@
     background-image: url(UI/HomeComponent/HomePictures/lady.png);
     background-repeat: none;
     background-size: 100% 100%;
+}
+
+.earningbg{
+    background-image: url(UI/HomeComponent/HomePictures/bg7.jpg);
+    background-size: 100% 100%;
+    background-color: #0000063f;
+    background-blend-mode: darken;
 }
 
 

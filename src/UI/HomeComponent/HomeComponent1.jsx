@@ -6,7 +6,7 @@ function HomeComponent1() {
     <div>
 
         {/* For Medium screen and Small Screen */}
-        <div className='min-h-[70vh] w-full text-[white] md:min-h-[60vh] lg:hidden   flex justify-center items-center flex-wrap headbg'>
+        <div className='min-h-[70vh] w-full text-[white] md:min-h-[60vh] lg:hidden mt-4   flex justify-center items-center flex-wrap headbg'>
             <div className='  w-[88%] px-1  '>
                 <div>
                     <h2 className='text-heading text-center md:text-mediumScreen font-bold tracking-wide'>Jump to the next level of finance</h2>
