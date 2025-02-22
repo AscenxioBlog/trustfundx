@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-<<<<<<< HEAD
-
-=======
-*{
-    /* padding: 0; */
-    margin: 0;
-}
->>>>>>> 220484cb91d11aefa7b96656504f4b35a91cfbd0
 @theme{
     --color-mybg:#000006;
     --color-primaryColor:#CD1818;
