@@ -90,6 +90,7 @@ function UserDash1() {
           
             </div>
 
+            <div className="h-[90vh] overflow-y-scroll">
             <div className="aa h-[55px] min-w-[70px] max-w-[270px]  overflow-hidden flex justify-end mt-3">
                 <div className=" h-[55px] w-[60px]  flex items-center justify-center bb"> <Link to='/dashboard' className=' text-[30px]'><FcHome /></Link></div>
                 <Link to='/dashboard'><div className=" h-[55px]  flex items-center font-semibold cc" style={{width:babywidth, transition:'0.3s'}}>Dashboard</div></Link>
@@ -201,6 +202,7 @@ function UserDash1() {
                 <Link><div className=" h-[55px]  flex items-center font-semibold cc" style={{width:babywidth, transition:'0.3s'}}>Log Out</div></Link>
             </div>
            
+            </div>
         </div>
 
 
