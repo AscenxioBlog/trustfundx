@@ -32,7 +32,7 @@ const FAQsComponents = () => {
     };
 
     return (
-        <div className='min-h-[70vh] px-4 py-10 text-white flex flex-col items-center'>
+        <div className='min-h-[70vh] px-4 py-10 text-white flex flex-col items-center '>
             <h1 className='font-medium text-3xl md:text-4xl text-center'>Frequently Asked Questions</h1>
             <p className='font-medium text-lg mt-5 text-center hidden lg:block'>Have Any Questions?</p>
             
