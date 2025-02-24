@@ -7,7 +7,7 @@
     --text-heading:22px;
     --text-mediumScreen:23px;
     --text-screenSize:18px; /* paragraph text size for phone*/
-    --text-largeScreen:26px;  /*  paragraph text size for laptop still fixing for now use medium screen*/
+    --text-largeScreen:29px;  /*  header text size for laptop still fixing for now use medium screen*/
 }
 
 .showdow-shawdow{
