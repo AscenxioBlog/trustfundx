@@ -4,7 +4,7 @@ import CustomBtn from '../../ButtonFolder/CustomBtn';
 function AboutSecondComponent() {
   return (
     
-    <div className='flex items-center lg:min-h-screen min-h-[70vh] px-4 py-10 '>
+    <div className='flex items-center lg:min-h-screen min-h-[70vh] px-4 py-10'>
       <div className='grid gap-7 grid-cols-1 lg:grid-cols-2 w-full max-w-6xl mx-auto'>
         <div>
               <img src="/Dashboard.png" className="w-full h-auto rounded-lg"/>
