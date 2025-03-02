@@ -56,9 +56,8 @@ function HomeComponent1() {
                             height= '40px'
                             width = '110px'
                             label='Jump Start'
-                            className=' bg-primaryColor hover:bg-mybg transition delay-150 duration-300 ease-in-out hover:text-[red]'
+                            className=' bg-primaryColor hover:text-amber    -400 hover:bg-mybg transition delay-150 duration-300 ease-in-out '
                             borderRadius='10px'
-
                         />
                         <CustomBtn 
                             height= '40px'

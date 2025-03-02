@@ -9,6 +9,8 @@ import NewsLettercomponent from '../AboutComponent/NewsLettercomponent'
 import YoutubeVideo from '../AboutComponent/YoutubeVideo'
 import FAQsComponents from '../AboutComponent/FAQsComponents'
 import AboutSecondComponent from '../AboutComponent/AboutSecondComponent'
+import TradingViewWidget from './TradingViewWidget'
+import ForexMarketData from './ForexMarketData'
 
 function HomePage() {
   return (
@@ -16,7 +18,7 @@ function HomePage() {
 
     <div className=' min-h-[100vh] w-full bg-mybg overflow-x-hidden'>
       <HomeComponent1/>
-      <HomeComponent2/>
+      <TradingViewWidget/>
       <HomeComponent3/>
       <AboutSecondComponent/>
       <HomeComponent4/>
@@ -25,6 +27,8 @@ function HomePage() {
       <FAQsComponents/>
       <NewsLettercomponent/>
       <YoutubeVideo/>
+      {/* <ForexMarketData/> */}
+      
     </div>
   )
 }

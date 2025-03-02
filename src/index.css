@@ -8,7 +8,10 @@
     --text-mediumScreen:23px;
     --text-screenSize:18px; /* paragraph text size for phone*/
     --text-largeScreen:29px;  /*  header text size for laptop still fixing for now use medium screen*/
+
+    
 }
+
 
 .showdow-shawdow{
     box-shadow: 0 0 50px black;
@@ -41,6 +44,9 @@
     background-color: #0000063f;
     background-blend-mode: darken;
 }
+
+
+
 
 
 .aa:hover .bb{
