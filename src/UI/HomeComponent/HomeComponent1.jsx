@@ -1,12 +1,16 @@
 import React from 'react'
 import CustomBtn from '../../ButtonFolder/CustomBtn'
+import { Link } from 'react-router-dom'
 
 function HomeComponent1() {
   return (
     <div>
 
         {/* For Medium screen and Small Screen */}
-        <div className='min-h-[70vh] w-full text-[white] md:min-h-[60vh] lg:hidden mt-4   flex justify-center items-center flex-wrap headbg'>
+      <div className='lg:hidden'>
+      <video autoPlay loop muted src="https://edgestonetrades.com/videos/tradingvid.mp4" className='absolute headbg w-full object-cover  h-[90vh]'></video>
+
+      <div className='min-h-[90vh] w-full text-[white] md:min-h-[60vh] lg:hidden mt-4 relative  z-10  flex justify-center items-center flex-wrap headbg'>
             <div className='  w-[88%] px-1  '>
                 <div>
                     <h2 className='text-heading text-center md:text-mediumScreen font-bold tracking-wide'>Jump to the next level of finance</h2>
@@ -36,11 +40,14 @@ function HomeComponent1() {
 
             </div>
         </div>
+      </div>
 
 
             {/* For Large Screen */}
             {/* the background  is also in the css */}
-        <div className='min-h-[90vh] w-full hidden lg:flex  justify-center items-end text-[white] headbg'>
+       <div className='hidden lg:block '>
+        <video autoPlay loop muted src="https://edgestonetrades.com/videos/tradingvid.mp4" className='absolute headbg w-full object-cover  h-[90vh]'></video>
+       <div className='min-h-[90vh] w-full hidden lg:flex  justify-center items-end text-[white] headbg  relative z-10'>
             <div className='min-h-[500px] w-[80%]  flex'>
                 <div className='min-h-[inherit]  w-[50%] flex flex-col justify-center items-start px-2'>
                     <div>
@@ -62,7 +69,7 @@ function HomeComponent1() {
                         <CustomBtn 
                             height= '40px'
                             width = '110px'
-                            label = 'Login'
+                            label = {<Link to='/login'>Login</Link>}
                             className=' bg-mybg text-primaryColor hover:opacity-85 transition delay-100 duration-300 ease-in-out hover:bg-[white] hover:text-primaryColor'
                             borderRadius='10px'
                         />
@@ -75,6 +82,7 @@ function HomeComponent1() {
             </div>
 
         </div>
+       </div>
 
     </div>
   )

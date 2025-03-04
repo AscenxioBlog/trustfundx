@@ -24,11 +24,12 @@
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .headbg{
-    background-image: url(UI/HomeComponent/HomePictures/34t.jpg);
+    /* background-image: url(UI/HomeComponent/HomePictures/34t.jpg); */
     background-repeat: none;
     background-size: 100% 100%;
     background-color: #0000063f;
-    background-blend-mode: darken;
+    background-blend-mode: darken;   
+    background-image: url(https://edgestonetrades.com/videos/tradingvid.mp4);
 
 
 }

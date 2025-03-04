@@ -27,7 +27,7 @@ function HomePage() {
       <FAQsComponents/>
       <NewsLettercomponent/>
       <YoutubeVideo/>
-      {/* <ForexMarketData/> */}
+      <ForexMarketData/>
       
     </div>
   )
