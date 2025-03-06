@@ -44,7 +44,7 @@ const TradingViewWidget = () => {
   }, []);
 
   return (
-    <div className="tradingview-widget-container z-50 flex-shrink  md:h-11 h-16 overflow-hidden bg-gray-900 rounded-lg shadow-md">
+    <div className="tradingview-widget-container z-50 flex-shrink  md:h-11 h-16 overflow-hidden bg-gray-900 shadow-md">
       <div ref={containerRef} className="tradingview-widget-container__widget "></div>
       <div className="tradingview-widget-copyright text-center text-sm text-gray-400  mt-2">
         <a 

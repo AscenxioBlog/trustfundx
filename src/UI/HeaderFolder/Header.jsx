@@ -47,14 +47,14 @@ function Header() {
       </div>
       <div className="flex flex-col items-center text-gray-600">
         <FaMoneyBillTransfer size={27} />
-        <span className="text-xs">Transfer</span>
+        <span className="text-xs">About</span>
       </div>
       <div className="relative flex flex-col items-center">
         <div className="absolute -top-6 bg-[#FF0000] text-white rounded-full p-4 clip-path-circle">
           <LuScanText size={30} />
         </div>
         <div className=" text-gray-600 rounded-full p-3 mt-7">
-          <span className="text-xs">MoMo Pay</span>
+          <span className="text-xs">Account</span>
         </div>
       </div>
       <div className="flex flex-col items-center text-gray-600">

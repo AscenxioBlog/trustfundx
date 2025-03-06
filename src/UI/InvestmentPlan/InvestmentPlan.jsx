@@ -2,6 +2,7 @@ import React from 'react'
 import InvestmentPlanFirst from './InvestmentPlanFirst'
 import InvestmentPlanSecond from './InvestmentPlanSecond'
 import FAQsComponents from '../AboutComponent/FAQsComponents'
+import TradingViewWidget from '../HomeComponent/TradingViewWidget'
 
 function InvestmentPlan() {
   return (
@@ -12,6 +13,8 @@ function InvestmentPlan() {
            <InvestmentPlanSecond />  
 
            <FAQsComponents />
+
+           <TradingViewWidget />
 
     </div>
   )
