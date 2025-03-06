@@ -9,7 +9,7 @@ import AboutThirdComponent from './AboutThirdComponent'
 
 function AboutPage() {
   return (
-    <div className=' bg-[#000000] lg:px-32 min-h-screen'>
+    <div className=' bg-[#000000] lg:px-20 min-h-screen'>
 
         <AboutFirstComponent />
 

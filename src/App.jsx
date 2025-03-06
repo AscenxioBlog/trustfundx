@@ -7,6 +7,7 @@ import ContactPage from './UI/ContactComponent/ContactPage'
 import AdminPage from './UI/AdminDashboard/AdminPage'
 import UserDashboard from './UI/UserDashboard/UserDashboard'
 import Header from './UI/HeaderFolder/Header'
+import InvestmentPlan from './UI/InvestmentPlan/InvestmentPlan'
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
             <Route path='/' element={<HomePage/>}/>
             <Route path='/about' element={<AboutPage/>}/>
             <Route path='/contact' element={<ContactPage/>}/>
+            <Route path='/contact' element={<ContactPage/>}/>
+            <Route path='/investmentplan' element={<InvestmentPlan/>}/>
             <Route path='/admin' element={<AdminPage/>}/>
             <Route path='/user' element={<UserDashboard/>}/>
           </Routes>

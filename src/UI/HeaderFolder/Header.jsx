@@ -21,8 +21,7 @@ function Header() {
                           <li><Link to='/'>Home</Link></li>
                           <li><Link to='/about'>About</Link></li>
                           <li><Link to='/contact'>Contact</Link></li>
-                          <li><Link to='/'>Investment Plans</Link></li>
-                          <li><Link to='/'>FAQs</Link></li>
+                          <li><Link to='/investmentplan'>Investment Plans</Link></li>
                       </ul>
                    </div>
 
