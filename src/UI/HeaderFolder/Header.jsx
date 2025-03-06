@@ -33,7 +33,7 @@ function Header() {
                      <CustomBtn 
                         height="35px"
                         width="110px"
-                        label="Login"
+                        label={<Link to='/login'>Login</Link>}
                         backgroundColor="#FF0000"
                         borderRadius="5px"
                      />

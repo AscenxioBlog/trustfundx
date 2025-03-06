@@ -7,7 +7,7 @@ function CustomBtn(props) {
         backgroundColor: props.backgroundColor,
         borderRadius: props.borderRadius,
         label: props.label,
-        color: props.color || 'white',
+        //x
         border: props.border || 'none',
         cursor: 'pointer',
         fontWeight: 'medium',
